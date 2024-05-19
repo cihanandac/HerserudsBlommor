@@ -50,32 +50,32 @@ const Features = () => {
               <table className="table-auto w-full lg:text-center">
                 <tbody>
                   <tr>
-                    <td>Monday</td>
+                    <td>Måndag</td>
                     <td>9am - 6pm</td>
                   </tr>
                   <tr>
-                    <td>Tuesday</td>
+                    <td>Tisdag</td>
                     <td>9am - 6pm</td>
                   </tr>
                   <tr>
-                    <td>Wednesday</td>
+                    <td>Onsdag</td>
                     <td>9am - 6pm</td>
                   </tr>
                   <tr>
-                    <td>Thursday</td>
+                    <td>Torsdag</td>
                     <td>9am - 6pm</td>
                   </tr>
                   <tr>
-                    <td>Friday</td>
+                    <td>Fredag</td>
                     <td>9am - 6pm</td>
                   </tr>
                   <tr>
-                    <td>Saturday</td>
+                    <td>Lördag</td>
                     <td>9am - 6pm</td>
                   </tr>
                   <tr>
-                    <td>Sunday</td>
-                    <td>10am - 5pm</td>
+                    <td>Söndag</td>
+                    <td>Stängt</td>
                   </tr>
                 </tbody>
               </table>
