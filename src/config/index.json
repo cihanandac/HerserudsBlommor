@@ -41,27 +41,27 @@
       {
         "title": "Buketter",
         "description": "Lorem ipsum dolor sit amet interdum laoreet fermentum imperdiet vulputate magna et faucibus etiam. Curabitur lacinia urna quisque mauris convallis aliqua ultricies do adipiscing.",
-        "img": "/assets/images/product1.jpg"
+        "img": "/assets/images/bouquet.jpg"
       },
       {
         "title": "Rosor",
         "description": "Lorem ipsum dolor sit amet interdum laoreet fermentum imperdiet vulputate magna et faucibus etiam. Curabitur lacinia urna quisque mauris convallis aliqua ultricies do adipiscing.",
-        "img": "/assets/images/product2.jpg"
+        "img": "/assets/images/roses.jpg"
       },
       {
         "title": "Krukväxter",
         "description": "Lorem ipsum dolor sit amet interdum laoreet fermentum imperdiet vulputate magna et faucibus etiam. Curabitur lacinia urna quisque mauris convallis aliqua ultricies do adipiscing.",
-        "img": "/assets/images/product3.jpg"
+        "img": "/assets/images/plants.jpg"
       },
       {
         "title": "Begravningsblommor",
         "description": "Lorem ipsum dolor sit amet interdum laoreet fermentum imperdiet vulputate magna et faucibus etiam. Curabitur lacinia urna quisque mauris convallis aliqua ultricies do adipiscing.",
-        "img": "/assets/images/product4.jpg"
+        "img": "/assets/images/funeral.jpg"
       },
       {
         "title": "Vaser och krukor",
         "description": "Lorem ipsum dolor sit amet interdum laoreet fermentum imperdiet vulputate magna et faucibus etiam. Curabitur lacinia urna quisque mauris convallis aliqua ultricies do adipiscing.",
-        "img": "/assets/images/product5.jpg"
+        "img": "/assets/images/vases.jpg"
       }
     ]
   },

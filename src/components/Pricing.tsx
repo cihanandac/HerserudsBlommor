@@ -7,7 +7,7 @@ const Pricing = () => {
   // const { items, title } = pricing;
   // const [firstPlan, secondPlan, thirdPlan] = items;
   const { product } = config;
-  const [firstItem, secondItem, thirdItem] = product.items;
+  const [firstItem, secondItem, thirdItem, fourthItem] = product.items;
 
   return (
     <section className="bg-background py-8" id="pricing">
@@ -67,6 +67,22 @@ const Pricing = () => {
                 className="w-[250px] h-[250px] rounded-full object-cover mx-auto"
                 src={thirdItem?.img}
                 alt={thirdItem?.title}
+              />
+            </div>
+          </div>
+          <div className="flex flex-col items-center text-center w-full sm:w-1/3">
+            <h3 className="text-xl font-bold mb-2 text-secondary font-sofiasans">
+              Begravningsblommor
+            </h3>
+            <p className="mb-4 text-secondary font-sofiasans">
+              Lorem ipsum dolor sit amet eu ornare libero sollicitudin nec
+              eiusmod at.
+            </p>
+            <div className="w-full p-6">
+              <img
+                className="w-[250px] h-[250px] rounded-full object-cover mx-auto"
+                src={fourthItem?.img}
+                alt={fourthItem?.title}
               />
             </div>
           </div>
