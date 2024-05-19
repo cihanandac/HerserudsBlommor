@@ -10,7 +10,7 @@
     },
     {
       "name": "Tillfällen",
-      "href": "features"
+      "href": "specialdays"
     },
     {
       "name": "Kontakt",
@@ -54,14 +54,39 @@
         "img": "/assets/images/plants.jpg"
       },
       {
-        "title": "Begravningsblommor",
-        "description": "Lorem ipsum dolor sit amet interdum laoreet fermentum imperdiet vulputate magna et faucibus etiam. Curabitur lacinia urna quisque mauris convallis aliqua ultricies do adipiscing.",
-        "img": "/assets/images/funeral.jpg"
-      },
-      {
         "title": "Vaser och krukor",
         "description": "Lorem ipsum dolor sit amet interdum laoreet fermentum imperdiet vulputate magna et faucibus etiam. Curabitur lacinia urna quisque mauris convallis aliqua ultricies do adipiscing.",
         "img": "/assets/images/vases.jpg"
+      },
+      {
+        "title": "Begravningsblommor",
+        "description": "Lorem ipsum dolor sit amet interdum laoreet fermentum imperdiet vulputate magna et faucibus etiam. Curabitur lacinia urna quisque mauris convallis aliqua ultricies do adipiscing.",
+        "img": "/assets/images/funeral.jpg"
+      }
+    ]
+  },
+  "specialdays": {
+    "title": "Sortiment",
+    "items": [
+      {
+        "title": "Brudbuketter",
+        "description": "Lorem ipsum dolor sit amet interdum laoreet fermentum imperdiet vulputate magna et faucibus etiam. Curabitur lacinia urna quisque mauris convallis aliqua ultricies do adipiscing.",
+        "img": "/assets/images/bridal.jpg"
+      },
+      {
+        "title": "Event Dekoration",
+        "description": "Lorem ipsum dolor sit amet interdum laoreet fermentum imperdiet vulputate magna et faucibus etiam. Curabitur lacinia urna quisque mauris convallis aliqua ultricies do adipiscing.",
+        "img": "/assets/images/events.jpg"
+      },
+      {
+        "title": "Nyblivna föräldrar",
+        "description": "Lorem ipsum dolor sit amet interdum laoreet fermentum imperdiet vulputate magna et faucibus etiam. Curabitur lacinia urna quisque mauris convallis aliqua ultricies do adipiscing.",
+        "img": "/assets/images/baby.jpg"
+      },
+      {
+        "title": "Begravningsblommor",
+        "description": "Lorem ipsum dolor sit amet interdum laoreet fermentum imperdiet vulputate magna et faucibus etiam. Curabitur lacinia urna quisque mauris convallis aliqua ultricies do adipiscing.",
+        "img": "/assets/images/funeral.jpg"
       }
     ]
   },

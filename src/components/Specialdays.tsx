@@ -2,15 +2,15 @@ import React from 'react';
 
 import config from '../config/index.json';
 
-const Pricing = () => {
+const Specialdays = () => {
   // const { pricing } = config;
   // const { items, title } = pricing;
   // const [firstPlan, secondPlan, thirdPlan] = items;
-  const { product } = config;
-  const [firstItem, secondItem, thirdItem, fourthItem] = product.items;
+  const { specialdays } = config;
+  const [firstItem, secondItem, thirdItem, fourthItem] = specialdays.items;
 
   return (
-    <section className="bg-background py-8" id="pricing">
+    <section className="bg-background py-8" id="specialdays">
       <div className="container mx-auto px-2 pt-4 pb-12 text-primary">
         <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-primary font-sofia">
           Tillfällen
@@ -22,15 +22,14 @@ const Pricing = () => {
           {/* <!-- Brudbuketter Section --> */}
           <div className="flex flex-col items-center text-center w-full sm:w-1/3">
             <h3 className="text-xl text-secondary font-bold mb-2 font-sofiasans">
-              Brudbuketter
+              {firstItem?.title}
             </h3>
             <p className="mb-4 text-secondary font-sofiasans">
-              Lorem ipsum dolor sit amet eu ornare libero sollicitudin nec
-              eiusmod at.
+              {firstItem?.description}
             </p>
             <div className="w-full p-6">
               <img
-                className="w-[250px] h-[250px] rounded-full object-cover mx-auto"
+                className="w-[250px] aspect-square rounded-full object-cover mx-auto"
                 src={firstItem?.img}
                 alt={firstItem?.title}
               />
@@ -39,15 +38,14 @@ const Pricing = () => {
           {/* <!-- Event Dekoration Section --> */}
           <div className="flex flex-col items-center text-center w-full sm:w-1/3">
             <h3 className="text-xl text-secondary font-bold mb-2 font-sofiasans">
-              Event Dekoration
+              {secondItem?.title}
             </h3>
             <p className="mb-4 text-secondary font-sofiasans">
-              Lorem ipsum dolor sit amet eu ornare libero sollicitudin nec
-              eiusmod at.
+              {secondItem?.description}
             </p>
             <div className="w-full p-6">
               <img
-                className="w-[250px] h-[250px] rounded-full object-cover mx-auto"
+                className="w-[250px] aspect-square rounded-full object-cover mx-auto"
                 src={secondItem?.img}
                 alt={secondItem?.title}
               />
@@ -56,31 +54,29 @@ const Pricing = () => {
           {/* <!-- Nyblivna Föräldrar Section --> */}
           <div className="flex flex-col items-center text-center w-full sm:w-1/3">
             <h3 className="text-xl font-bold mb-2 text-secondary font-sofiasans">
-              Nyblivna föräldrar
+              {thirdItem?.title}
             </h3>
             <p className="mb-4 text-secondary font-sofiasans">
-              Lorem ipsum dolor sit amet eu ornare libero sollicitudin nec
-              eiusmod at.
+              {thirdItem?.description}
             </p>
             <div className="w-full p-6">
               <img
-                className="w-[250px] h-[250px] rounded-full object-cover mx-auto"
+                className="w-[250px] aspect-square rounded-full object-cover mx-auto"
                 src={thirdItem?.img}
                 alt={thirdItem?.title}
               />
             </div>
           </div>
-          <div className="flex flex-col items-center text-center w-full sm:w-1/3">
+          <div className="flex flex-col justify-start items-center text-center w-full sm:w-1/3">
             <h3 className="text-xl font-bold mb-2 text-secondary font-sofiasans">
-              Begravningsblommor
+              {fourthItem?.title}
             </h3>
             <p className="mb-4 text-secondary font-sofiasans">
-              Lorem ipsum dolor sit amet eu ornare libero sollicitudin nec
-              eiusmod at.
+              {fourthItem?.description}
             </p>
             <div className="w-full p-6">
               <img
-                className="w-[250px] h-[250px] rounded-full object-cover mx-auto"
+                className="w-[250px] aspect-square rounded-full object-cover mx-auto"
                 src={fourthItem?.img}
                 alt={fourthItem?.title}
               />
@@ -92,4 +88,4 @@ const Pricing = () => {
   );
 };
 
-export default Pricing;
+export default Specialdays;

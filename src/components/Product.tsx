@@ -83,12 +83,12 @@ const Product = () => {
             />
           </div>
         </div>
-        {/* <div className={`flex flex-wrap flex-col-reverse sm:flex-row`}>
+        <div className={`flex flex-wrap flex-col-reverse sm:flex-row`}>
           <div className={`w-full sm:w-1/2 p-6`}>
             <img
               className="h-6/6 w-[400px] h-[400px] rounded-full mx-auto object-cover"
-              src={fourthItem?.img}
-              alt={fourthItem?.title}
+              src={fifthItem?.img}
+              alt={fifthItem?.title}
             />
           </div>
           <div
@@ -98,15 +98,15 @@ const Product = () => {
               <h3
                 className={`text-3xl text-gray-800 font-bold leading-none mb-3 font-sofiasans`}
               >
-                {fourthItem?.title}
+                {fifthItem?.title}
               </h3>
               <p className={`text-gray-600 mb-8 font-sofiasans`}>
-                {fourthItem?.description}
+                {fifthItem?.description}
               </p>
             </div>
           </div>
-        </div> */}
-        <div className={`flex flex-wrap`}>
+        </div>
+        {/* <div className={`flex flex-wrap`}>
           <div
             className={`w-6/6 sm:w-1/2 p-6 mt-20 flex flex-col items-center sm:items-start text-center sm:text-left`}
           >
@@ -126,7 +126,7 @@ const Product = () => {
               alt={fifthItem?.title}
             />
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
