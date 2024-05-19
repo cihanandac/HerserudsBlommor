@@ -3,12 +3,11 @@ import React from 'react';
 import config from '../config/index.json';
 
 const Pricing = () => {
-  const { pricing } = config;
-  const { items, title } = pricing;
-  const [firstPlan, secondPlan, thirdPlan] = items;
+  // const { pricing } = config;
+  // const { items, title } = pricing;
+  // const [firstPlan, secondPlan, thirdPlan] = items;
   const { product } = config;
-  const [firstItem, secondItem, thirdItem, fourthItem, fifthItem] =
-    product.items;
+  const [firstItem, secondItem, thirdItem] = product.items;
 
   return (
     <section className="bg-background py-8" id="pricing">
