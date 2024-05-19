@@ -25,3 +25,6 @@ a {
   @apply my-6;
 }
 
+.aspect-square{
+  aspect-ratio: 1;
+}
