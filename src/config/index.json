@@ -40,27 +40,27 @@
     "items": [
       {
         "title": "Buketter",
-        "description": "Lorem ipsum dolor sit amet interdum laoreet fermentum imperdiet vulputate magna et faucibus etiam. Curabitur lacinia urna quisque mauris convallis aliqua ultricies do adipiscing.",
+        "description": "Våra buketter är noggrant arrangerade för att förmedla känslor och skapa minnen. Oavsett om du firar en speciell händelse eller bara vill göra någons dag ljusare, har vi buketten för dig.",
         "img": "/assets/images/bouquet.jpg"
       },
       {
         "title": "Rosor",
-        "description": "Lorem ipsum dolor sit amet interdum laoreet fermentum imperdiet vulputate magna et faucibus etiam. Curabitur lacinia urna quisque mauris convallis aliqua ultricies do adipiscing.",
+        "description": "Upptäck vårt breda utbud av rosor, perfekta för att uttrycka kärlek, vänskap eller uppskattning. Från klassiska röda rosor till unika färgkombinationer, har vi något för varje tillfälle.",
         "img": "/assets/images/roses.jpg"
       },
       {
         "title": "Krukväxter",
-        "description": "Lorem ipsum dolor sit amet interdum laoreet fermentum imperdiet vulputate magna et faucibus etiam. Curabitur lacinia urna quisque mauris convallis aliqua ultricies do adipiscing.",
+        "description": "Ge ditt hem eller kontor liv med våra vackra krukväxter. Välj bland ett stort sortiment av gröna växter som är både dekorativa och luftrenande.",
         "img": "/assets/images/plants.jpg"
       },
       {
         "title": "Vaser och krukor",
-        "description": "Lorem ipsum dolor sit amet interdum laoreet fermentum imperdiet vulputate magna et faucibus etiam. Curabitur lacinia urna quisque mauris convallis aliqua ultricies do adipiscing.",
+        "description": "Komplettera dina blommor med våra eleganta vaser och krukor. Vi erbjuder ett brett sortiment som passar alla stilar och behov.",
         "img": "/assets/images/vases.jpg"
       },
       {
         "title": "Begravningsblommor",
-        "description": "Lorem ipsum dolor sit amet interdum laoreet fermentum imperdiet vulputate magna et faucibus etiam. Curabitur lacinia urna quisque mauris convallis aliqua ultricies do adipiscing.",
+        "description": "Visa ditt stöd och medkänsla med våra vackra begravningsblommor. Vi erbjuder ett stort urval av arrangemang för att hedra minnet av en älskad på ett värdigt sätt.",
         "img": "/assets/images/funeral.jpg"
       }
     ]
@@ -70,22 +70,22 @@
     "items": [
       {
         "title": "Brudbuketter",
-        "description": "Lorem ipsum dolor sit amet interdum laoreet fermentum imperdiet vulputate magna et faucibus etiam. Curabitur lacinia urna quisque mauris convallis aliqua ultricies do adipiscing.",
+        "description": "Få din drömbrudbukett hos oss. Vi skapar unika och personliga arrangemang som kompletterar din stil och gör din dag ännu mer minnesvärd.",
         "img": "/assets/images/bridal.jpg"
       },
       {
         "title": "Event Dekoration",
-        "description": "Lorem ipsum dolor sit amet interdum laoreet fermentum imperdiet vulputate magna et faucibus etiam. Curabitur lacinia urna quisque mauris convallis aliqua ultricies do adipiscing.",
+        "description": "Förvandla ditt evenemang med våra vackra blomsterdekorationer. Oavsett om det är en företagsfest, bröllop eller jubileum, skapar vi dekorationer som gör ditt event speciellt.",
         "img": "/assets/images/events.jpg"
       },
       {
         "title": "Nyblivna föräldrar",
-        "description": "Lorem ipsum dolor sit amet interdum laoreet fermentum imperdiet vulputate magna et faucibus etiam. Curabitur lacinia urna quisque mauris convallis aliqua ultricies do adipiscing.",
+        "description": "Fira det nya livet med våra speciella blomsterarrangemang för nyblivna föräldrar. En perfekt gåva för att välkomna den nya familjemedlemmen och visa din glädje och omtanke.",
         "img": "/assets/images/baby.jpg"
       },
       {
         "title": "Begravningsblommor",
-        "description": "Lorem ipsum dolor sit amet interdum laoreet fermentum imperdiet vulputate magna et faucibus etiam. Curabitur lacinia urna quisque mauris convallis aliqua ultricies do adipiscing.",
+        "description": "Hedra minnet av dina kära med våra stilfulla begravningsblommor. Vi hjälper dig att välja det perfekta arrangemanget för att uttrycka din sorg och respekt.",
         "img": "/assets/images/funeral.jpg"
       }
     ]
