@@ -13,6 +13,10 @@
       "href": "specialdays"
     },
     {
+      "name": "Bukettpriser",
+      "href": "subscription"
+    },
+    {
       "name": "Kontakt",
       "href": "features"
     }
@@ -87,6 +91,31 @@
         "title": "Begravningsblommor",
         "description": "Hedra minnet av dina kära med våra stilfulla begravningsblommor. Vi hjälper dig att välja det perfekta arrangemanget för att uttrycka din sorg och respekt.",
         "img": "/assets/images/funeral.jpg"
+      }
+    ]
+  },
+  "subscription": {
+    "title": "Subscription",
+    "items": [
+      {
+        "title": "Liten",
+        "description": "300 kr",
+        "img": "/assets/images/Liten.jpg"
+      },
+      {
+        "title": "Mellan",
+        "description": "500 kr",
+        "img": "/assets/images/Mellan.jpg"
+      },
+      {
+        "title": "Stor",
+        "description": "700 kr",
+        "img": "/assets/images/Stor.jpg"
+      },
+      {
+        "title": "Lyx",
+        "description": "750 kr",
+        "img": "/assets/images/Lyx.jpg"
       }
     ]
   },
