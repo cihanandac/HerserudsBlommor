@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "types": ["node", "json-schema"],
     "lib": ["dom", "dom.iterable", "esnext"],
     "module": "esnext",
     "moduleResolution": "node",
@@ -36,5 +37,10 @@
     "incremental": true
   },
   "exclude": ["./out/**/*", "./node_modules/**/*"],
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/Particals.tsx"]
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/components/Particals.tsx"
+  ]
 }
