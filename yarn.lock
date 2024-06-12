@@ -4534,7 +4534,7 @@ yaml@^2.2.2:
 
 yet-another-react-lightbox@^3.19.0:
   version "3.19.0"
-  resolved "https://registry.npmjs.org/yet-another-react-lightbox/-/yet-another-react-lightbox-3.19.0.tgz"
+  resolved "https://registry.yarnpkg.com/yet-another-react-lightbox/-/yet-another-react-lightbox-3.19.0.tgz#2fb0ea30ca058111f154852c54904cd1858fc3ca"
   integrity sha512-HbvKVKfl17J51MdE2wMiZqwIDlse3CJYffQhl4RUOG1BZLcQ74Jf/CxGEa/EIECwCaabRiHzZbX88+z4Flvl0A==
 
 yocto-queue@^0.1.0:
