@@ -1,12 +1,46 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-import config from '../config/index.json';
+import Lightbox from 'yet-another-react-lightbox';
+import Captions from 'yet-another-react-lightbox/plugins/captions';
+import 'yet-another-react-lightbox/styles.css';
+import 'yet-another-react-lightbox/plugins/captions.css';
+
 import Divider from './Divider';
+import config from '../config/index.json';
 
 const Product = () => {
   const { product } = config;
   const [firstItem, secondItem, thirdItem, fifthItem] = product.items;
+  const [open, setOpen] = useState(false);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
+  const images = [
+    {
+      src: firstItem?.img || '',
+      alt: firstItem?.title || '',
+      title: firstItem?.title || '',
+    },
+    {
+      src: secondItem?.img || '',
+      alt: secondItem?.title || '',
+      title: secondItem?.title || '',
+    },
+    {
+      src: thirdItem?.img || '',
+      alt: thirdItem?.title || '',
+      title: thirdItem?.title || '',
+    },
+    {
+      src: fifthItem?.img || '',
+      alt: fifthItem?.title || '',
+      title: fifthItem?.title || '',
+    },
+  ];
+
+  const handleClick = (index: any) => {
+    setCurrentImageIndex(index);
+    setOpen(true);
+  };
   return (
     <section className={`bg-background py-8`} id="product">
       <div className={`container max-w-5xl mx-auto m-8`}>
@@ -35,18 +69,20 @@ const Product = () => {
           </div>
           <div className={`w-full sm:w-1/2 p-6`}>
             <img
-              className="h-6/6 w-[400px] h-[400px] rounded-full mx-auto object-cover"
+              className="h-6/6 w-[400px] h-[400px] rounded-full mx-auto object-cover cursor-pointer"
               src={firstItem?.img}
               alt={firstItem?.title}
+              onClick={() => handleClick(0)}
             />
           </div>
         </div>
         <div className={`flex flex-wrap flex-col-reverse sm:flex-row`}>
           <div className={`w-full sm:w-1/2 p-6`}>
             <img
-              className="h-6/6 w-[400px] h-[400px] rounded-full mx-auto object-cover"
+              className="h-6/6 w-[400px] h-[400px] rounded-full mx-auto object-cover cursor-pointer"
               src={secondItem?.img}
               alt={secondItem?.title}
+              onClick={() => handleClick(1)}
             />
           </div>
           <div
@@ -77,18 +113,20 @@ const Product = () => {
           </div>
           <div className={`w-full sm:w-1/2 p-6`}>
             <img
-              className="h-6/6 w-[400px] h-[400px] rounded-full font-sofiasans mx-auto object-cover"
+              className="h-6/6 w-[400px] h-[400px] rounded-full font-sofiasans mx-auto object-cover cursor-pointer"
               src={thirdItem?.img}
               alt={thirdItem?.title}
+              onClick={() => handleClick(2)}
             />
           </div>
         </div>
         <div className={`flex flex-wrap flex-col-reverse sm:flex-row`}>
           <div className={`w-full sm:w-1/2 p-6`}>
             <img
-              className="h-6/6 w-[400px] h-[400px] rounded-full mx-auto object-cover"
+              className="h-6/6 w-[400px] h-[400px] rounded-full mx-auto object-cover cursor-pointer"
               src={fifthItem?.img}
               alt={fifthItem?.title}
+              onClick={() => handleClick(3)}
             />
           </div>
           <div
@@ -128,6 +166,20 @@ const Product = () => {
           </div>
         </div> */}
       </div>
+      {open && (
+        <Lightbox
+          slides={images}
+          open={open}
+          close={() => setOpen(false)}
+          index={currentImageIndex}
+          plugins={[Captions]}
+          captions={{
+            // showToggle: true,
+            descriptionTextAlign: 'center',
+            descriptionMaxLines: 3,
+          }}
+        />
+      )}
     </section>
   );
 };
