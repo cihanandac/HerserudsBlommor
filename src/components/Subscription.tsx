@@ -10,36 +10,56 @@ import config from '../config/index.json';
 const Subscription = () => {
   const { subscription } = config;
   const [firstItem, secondItem, thirdItem, fourthItem] = subscription.items;
+  const [litenImgFirst] = subscription.Liten_images;
+  const [mellanImgFirst] = subscription.Mellan_images;
+  const [storImgFirst] = subscription.Stor_images;
+  const [lyxImgFirst] = subscription.Lyx_images;
 
-  const [open, setOpen] = useState(false);
+  const [litenImagesOpen, setLitenImagesOpen] = useState(false);
+  const [mellanImagesOpen, setMellanImagesOpen] = useState(false);
+  const [storImagesOpen, setStorImagesOpen] = useState(false);
+  const [lyxImagesOpen, setLyxImagesOpen] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-  const images = [
+  const litenImages = [
     {
-      src: firstItem?.img || '',
-      alt: firstItem?.title || '',
-      title: firstItem?.title || '',
+      src: litenImgFirst?.img || '',
     },
+  ];
+  const mellanImages = [
     {
-      src: secondItem?.img || '',
-      alt: secondItem?.title || '',
-      title: secondItem?.title || '',
+      src: mellanImgFirst?.img || '',
     },
+  ];
+  const storImages = [
     {
-      src: thirdItem?.img || '',
-      alt: thirdItem?.title || '',
-      title: thirdItem?.title || '',
+      src: storImgFirst?.img || '',
     },
+  ];
+  const lyxImages = [
     {
-      src: fourthItem?.img || '',
-      alt: fourthItem?.title || '',
-      title: fourthItem?.title || '',
+      src: lyxImgFirst?.img || '',
     },
   ];
 
-  const handleClick = (index: any) => {
-    setCurrentImageIndex(index);
-    setOpen(true);
+  const handleClick = (image_type: string) => {
+    switch (image_type) {
+      case 'Liten':
+        setLitenImagesOpen(true);
+        break;
+      case 'Mellan':
+        setMellanImagesOpen(true);
+        break;
+      case 'Stor':
+        setStorImagesOpen(true);
+        break;
+      case 'Lyx':
+        setLyxImagesOpen(true);
+        break;
+      default:
+        break;
+    }
+    setCurrentImageIndex(0);
   };
 
   return (
@@ -82,7 +102,7 @@ const Subscription = () => {
                 className=" w-[450px] sm:w-[250px] aspect-square object-cover mx-auto cursor-pointer rounded-lg"
                 src={firstItem?.img}
                 alt={firstItem?.title}
-                onClick={() => handleClick(0)}
+                onClick={() => handleClick('Liten')}
               />
             </div>
           </div>
@@ -99,7 +119,7 @@ const Subscription = () => {
                 className="w-[450px] sm:w-[250px] aspect-square object-cover mx-auto cursor-pointer rounded-lg"
                 src={secondItem?.img}
                 alt={secondItem?.title}
-                onClick={() => handleClick(1)}
+                onClick={() => handleClick('Mellan')}
               />
             </div>
           </div>
@@ -116,7 +136,7 @@ const Subscription = () => {
                 className="w-[450px] sm:w-[250px] aspect-square object-cover mx-auto cursor-pointer rounded-lg"
                 src={thirdItem?.img}
                 alt={thirdItem?.title}
-                onClick={() => handleClick(2)}
+                onClick={() => handleClick('Stor')}
               />
             </div>
           </div>
@@ -135,17 +155,59 @@ const Subscription = () => {
                 className="w-[450px] aspect-square object-cover mx-auto cursor-pointer rounded-lg"
                 src={fourthItem?.img}
                 alt={fourthItem?.title}
-                onClick={() => handleClick(3)}
+                onClick={() => handleClick('Lyx')}
               />
             </div>
           </div>
         </div>
       </div>
-      {open && (
+      {litenImagesOpen && (
         <Lightbox
-          slides={images}
-          open={open}
-          close={() => setOpen(false)}
+          slides={litenImages}
+          open={litenImagesOpen}
+          close={() => setLitenImagesOpen(false)}
+          index={currentImageIndex}
+          // plugins={[Captions]}
+          captions={{
+            // showToggle: true,
+            descriptionTextAlign: 'center',
+            descriptionMaxLines: 3,
+          }}
+        />
+      )}
+      {mellanImagesOpen && (
+        <Lightbox
+          slides={mellanImages}
+          open={mellanImagesOpen}
+          close={() => setMellanImagesOpen(false)}
+          index={currentImageIndex}
+          // plugins={[Captions]}
+          captions={{
+            // showToggle: true,
+            descriptionTextAlign: 'center',
+            descriptionMaxLines: 3,
+          }}
+        />
+      )}
+      {storImagesOpen && (
+        <Lightbox
+          slides={storImages}
+          open={storImagesOpen}
+          close={() => setStorImagesOpen(false)}
+          index={currentImageIndex}
+          // plugins={[Captions]}
+          captions={{
+            // showToggle: true,
+            descriptionTextAlign: 'center',
+            descriptionMaxLines: 3,
+          }}
+        />
+      )}
+      {lyxImagesOpen && (
+        <Lightbox
+          slides={lyxImages}
+          open={lyxImagesOpen}
+          close={() => setLyxImagesOpen(false)}
           index={currentImageIndex}
           // plugins={[Captions]}
           captions={{
