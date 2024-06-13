@@ -100,22 +100,22 @@
     "items": [
       {
         "title": "Liten",
-        "description": "300 kr",
+        "description": "På bilderna liten storlek",
         "img": "/assets/images/Liten.jpg"
       },
       {
         "title": "Mellan",
-        "description": "500 kr",
+        "description": "På bilderna mellanstorlek",
         "img": "/assets/images/Mellan.jpg"
       },
       {
         "title": "Stor",
-        "description": "700 kr",
+        "description": "På bilderna stor storlek",
         "img": "/assets/images/Stor.jpg"
       },
       {
         "title": "Lyx",
-        "description": "750 kr",
+        "description": "På bilderna lyx storlek",
         "img": "/assets/images/Lyx.jpg"
       }
     ],

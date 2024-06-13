@@ -85,19 +85,19 @@ const Subscription = () => {
             <li>Liten: 300kr</li>
             <li>Mellan: 500kr</li>
             <li>Stor: 700kr</li>
-            <li>Lyx: 750kr</li>
+            <li>Lyx: från 750kr</li>
           </ul>
         </p>
         <div className="flex flex-col sm:flex-row justify-center items-stretch pt-12 my-12 sm:my-4 space-y-8 sm:space-y-0 sm:space-x-8">
           {/* <!-- Liten Section --> */}
           <div className="flex flex-col h-full items-center text-center w-full sm:w-1/3 flex-grow">
-            {/* <p className="mb-4 text-secondary font-sofiasans">
-              {firstItem?.description}
-            </p> */}
             <div className="w-full p-6 flex-grow">
               <h3 className="text-xl text-secondary font-bold mb-2 font-sofiasans">
                 {firstItem?.title}
               </h3>
+              <p className="mb-4 text-secondary font-sofiasans">
+                {firstItem?.description}
+              </p>
               <img
                 className=" w-[450px] sm:w-[250px] aspect-square object-cover mx-auto cursor-pointer rounded-lg"
                 src={firstItem?.img}
@@ -108,13 +108,13 @@ const Subscription = () => {
           </div>
           {/* <!-- Mellan Section --> */}
           <div className="flex flex-col h-full items-center text-center w-full sm:w-1/3 flex-grow">
-            {/* <p className="mb-4 text-secondary font-sofiasans">
-              {secondItem?.description}
-              </p> */}
             <div className="w-full p-6 flex-grow">
               <h3 className="text-xl text-secondary font-bold mb-2 font-sofiasans">
                 {secondItem?.title}
               </h3>
+              <p className="mb-4 text-secondary font-sofiasans">
+                {secondItem?.description}
+              </p>
               <img
                 className="w-[450px] sm:w-[250px] aspect-square object-cover mx-auto cursor-pointer rounded-lg"
                 src={secondItem?.img}
@@ -125,13 +125,13 @@ const Subscription = () => {
           </div>
           {/* <!-- Stor Section --> */}
           <div className="flex flex-col h-full items-center text-center w-full sm:w-1/3 flex-grow">
-            {/* <p className="mb-4 text-secondary font-sofiasans">
-              {thirdItem?.description}
-              </p> */}
             <div className="w-full p-6 flex-grow">
               <h3 className="text-xl font-bold mb-2 text-secondary font-sofiasans">
                 {thirdItem?.title}
               </h3>
+              <p className="mb-4 text-secondary font-sofiasans">
+                {thirdItem?.description}
+              </p>
               <img
                 className="w-[450px] sm:w-[250px] aspect-square object-cover mx-auto cursor-pointer rounded-lg"
                 src={thirdItem?.img}
@@ -142,15 +142,15 @@ const Subscription = () => {
           </div>
         </div>
         {/* <!-- Lyx Section --> */}
-        <div className="flex flex-col sm:flex-row justify-center items-stretch pt-12 my-12 sm:my-4 space-y-8 sm:space-y-0 sm:space-x-8">
+        <div className="flex flex-col sm:flex-row justify-center items-stretch sm:pt-12 my-12 sm:my-4 space-y-8 sm:space-y-0 sm:space-x-8">
           <div className="flex flex-col h-full items-center text-center w-full sm:w-1/3 flex-grow">
-            {/* <p className="mb-4 text-secondary font-sofiasans">
-              {fourthItem?.description}
-              </p> */}
             <div className="w-full p-6 flex-grow">
               <h3 className="text-xl font-bold mb-2 text-secondary font-sofiasans">
                 {fourthItem?.title}
               </h3>
+              <p className="mb-4 text-secondary font-sofiasans">
+                {fourthItem?.description}
+              </p>
               <img
                 className="w-[450px] aspect-square object-cover mx-auto cursor-pointer rounded-lg"
                 src={fourthItem?.img}
