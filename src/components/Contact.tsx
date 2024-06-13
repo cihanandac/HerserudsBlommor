@@ -51,27 +51,27 @@ const Features = () => {
                 <tbody>
                   <tr>
                     <td>Måndag</td>
-                    <td>9am - 6pm</td>
+                    <td>10:00 - 18:00</td>
                   </tr>
                   <tr>
                     <td>Tisdag</td>
-                    <td>9am - 6pm</td>
+                    <td>10:00 - 18:00</td>
                   </tr>
                   <tr>
                     <td>Onsdag</td>
-                    <td>9am - 6pm</td>
+                    <td>10:00 - 18:00</td>
                   </tr>
                   <tr>
                     <td>Torsdag</td>
-                    <td>9am - 6pm</td>
+                    <td>10:00 - 18:00</td>
                   </tr>
                   <tr>
                     <td>Fredag</td>
-                    <td>9am - 6pm</td>
+                    <td>10:00 - 18:00</td>
                   </tr>
                   <tr>
                     <td>Lördag</td>
-                    <td>9am - 6pm</td>
+                    <td>10:00 - 18:00</td>
                   </tr>
                   <tr>
                     <td>Söndag</td>
