@@ -11,7 +11,8 @@ const Subscription = () => {
   const { subscription } = config;
   const [firstItem, secondItem, thirdItem, fourthItem] = subscription.items;
   const [litenImgFirst] = subscription.Liten_images;
-  const [mellanImgFirst] = subscription.Mellan_images;
+  const [mellanImgFirst, mellanImgSecond, mellanImgThird] =
+    subscription.Mellan_images;
   const [storImgFirst] = subscription.Stor_images;
   const [lyxImgFirst] = subscription.Lyx_images;
 
@@ -29,6 +30,12 @@ const Subscription = () => {
   const mellanImages = [
     {
       src: mellanImgFirst?.img || '',
+    },
+    {
+      src: mellanImgSecond?.img || '',
+    },
+    {
+      src: mellanImgThird?.img || '',
     },
   ];
   const storImages = [

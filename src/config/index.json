@@ -120,7 +120,11 @@
       }
     ],
     "Liten_images": [{ "img": "/assets/images/Liten.jpg" }],
-    "Mellan_images": [{ "img": "/assets/images/Mellan.jpg" }],
+    "Mellan_images": [
+      { "img": "/assets/images/Mellan.jpg" },
+      { "img": "/assets/images/Mellan2.jpg" },
+      { "img": "/assets/images/Mellan3.jpg" }
+    ],
     "Stor_images": [{ "img": "/assets/images/Stor.jpg" }],
     "Lyx_images": [{ "img": "/assets/images/Lyx.jpg" }]
   },
