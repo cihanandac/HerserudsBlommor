@@ -106,7 +106,7 @@ const Subscription = () => {
                 {firstItem?.description}
               </p>
               <img
-                className=" w-[450px] sm:w-[250px] aspect-square object-cover mx-auto cursor-pointer rounded-lg"
+                className=" w-[450px] sm:w-[250px] aspect-square object-cover mx-auto cursor-pointer rounded-full"
                 src={firstItem?.img}
                 alt={firstItem?.title}
                 onClick={() => handleClick('Liten')}
@@ -123,7 +123,7 @@ const Subscription = () => {
                 {secondItem?.description}
               </p>
               <img
-                className="w-[450px] sm:w-[250px] aspect-square object-cover mx-auto cursor-pointer rounded-lg"
+                className="w-[450px] sm:w-[250px] aspect-square object-cover mx-auto cursor-pointer rounded-full"
                 src={secondItem?.img}
                 alt={secondItem?.title}
                 onClick={() => handleClick('Mellan')}
@@ -140,7 +140,7 @@ const Subscription = () => {
                 {thirdItem?.description}
               </p>
               <img
-                className="w-[450px] sm:w-[250px] aspect-square object-cover mx-auto cursor-pointer rounded-lg"
+                className="w-[450px] sm:w-[250px] aspect-square object-cover mx-auto cursor-pointer rounded-full"
                 src={thirdItem?.img}
                 alt={thirdItem?.title}
                 onClick={() => handleClick('Stor')}
@@ -159,7 +159,7 @@ const Subscription = () => {
                 {fourthItem?.description}
               </p>
               <img
-                className="w-[450px] aspect-square object-cover mx-auto cursor-pointer rounded-lg"
+                className="w-[450px] aspect-square object-cover mx-auto cursor-pointer rounded-full"
                 src={fourthItem?.img}
                 alt={fourthItem?.title}
                 onClick={() => handleClick('Lyx')}
