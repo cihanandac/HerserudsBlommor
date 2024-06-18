@@ -40,7 +40,7 @@ const Features = () => {
             <div className="w-full lg:w-1/3 mb-4 lg:mb-0">
               <h3 className="text-lg font-bold lg:text-center">Adress</h3>
               <p className="lg:text-center">
-                Herserudsvägen 3, 181 50 Lidingö, Sverge
+                Herserudsvägen 3, 181 50 Lidingö, Sverige
               </p>
             </div>
 
