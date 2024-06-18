@@ -10,8 +10,9 @@ import config from '../config/index.json';
 const Subscription = () => {
   const { subscription } = config;
   const [firstItem, secondItem, thirdItem, fourthItem] = subscription.items;
-  const [litenImgFirst] = subscription.Liten_images;
-  const [mellanImgFirst, mellanImgSecond, mellanImgThird] =
+  const [litenImg1, litenImg2, litenImg3, litenImg4] =
+    subscription.Liten_images;
+  const [mellanImgFirst, mellanImgSecond, mellanImgThird, mellanImgFourth] =
     subscription.Mellan_images;
   const [storImgFirst] = subscription.Stor_images;
   const [lyxImgFirst] = subscription.Lyx_images;
@@ -24,7 +25,16 @@ const Subscription = () => {
 
   const litenImages = [
     {
-      src: litenImgFirst?.img || '',
+      src: litenImg1?.img || '',
+    },
+    {
+      src: litenImg2?.img || '',
+    },
+    {
+      src: litenImg3?.img || '',
+    },
+    {
+      src: litenImg4?.img || '',
     },
   ];
   const mellanImages = [
@@ -36,6 +46,9 @@ const Subscription = () => {
     },
     {
       src: mellanImgThird?.img || '',
+    },
+    {
+      src: mellanImgFourth?.img || '',
     },
   ];
   const storImages = [

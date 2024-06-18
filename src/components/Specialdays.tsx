@@ -12,6 +12,10 @@ const Specialdays = () => {
   const { specialdays } = config;
   const [dekorationImages1, dekorationImages2, dekorationImages3] =
     specialdays.dekorationImages;
+  const [brudbuketterImages1, brudbuketterImages2] =
+    specialdays.brudbuketterImages;
+  const [begravningImages1, begravningImages2, begravningImages3] =
+    specialdays.begravningImages;
   const [firstItem, secondItem, thirdItem, fourthItem] = specialdays.items;
 
   const [brudbuketterImagesOpen, setBrudbuketterImagesOpen] = useState(false);
@@ -22,7 +26,11 @@ const Specialdays = () => {
 
   const brudbuketterImages = [
     {
-      src: firstItem?.img || '',
+      src: brudbuketterImages1?.img || '',
+      title: firstItem?.title || '',
+    },
+    {
+      src: brudbuketterImages2?.img || '',
       title: firstItem?.title || '',
     },
   ];
@@ -53,7 +61,15 @@ const Specialdays = () => {
   ];
   const begravningImages = [
     {
-      src: fourthItem?.img || '',
+      src: begravningImages1?.img || '',
+      title: fourthItem?.title || '',
+    },
+    {
+      src: begravningImages2?.img || '',
+      title: fourthItem?.title || '',
+    },
+    {
+      src: begravningImages3?.img || '',
       title: fourthItem?.title || '',
     },
   ];

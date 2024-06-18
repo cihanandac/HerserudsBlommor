@@ -94,14 +94,21 @@
         "img": "/assets/images/funeral.jpg"
       }
     ],
-    "brudbuketterImages": [{ "img": "" }],
+    "brudbuketterImages": [
+      { "img": "/assets/images/bridal.jpg" },
+      { "img": "/assets/images/bridal2.jpg" }
+    ],
     "dekorationImages": [
       { "img": "/assets/images/event/event1.jpeg" },
       { "img": "/assets/images/event/event2.jpeg" },
       { "img": "/assets/images/event/event3.jpeg" }
     ],
     "nyblivnaImages": [{ "img": "" }],
-    "begravningImages": [{ "img": "" }]
+    "begravningImages": [
+      { "img": "/assets/images/funeral.jpg" },
+      { "img": "/assets/images/funeral2.jpeg" },
+      { "img": "/assets/images/funeral3.jpeg" }
+    ]
   },
   "subscription": {
     "title": "Subscription",
@@ -109,7 +116,7 @@
       {
         "title": "Liten",
         "description": "På bilderna liten storlek",
-        "img": "/assets/images/Liten.jpg"
+        "img": "/assets/images/Liten1.jpg"
       },
       {
         "title": "Mellan",
@@ -127,11 +134,17 @@
         "img": "/assets/images/Lyx.jpg"
       }
     ],
-    "Liten_images": [{ "img": "/assets/images/Liten.jpg" }],
+    "Liten_images": [
+      { "img": "/assets/images/Liten1.jpg" },
+      { "img": "/assets/images/Liten2.jpg" },
+      { "img": "/assets/images/Liten3.jpg" },
+      { "img": "/assets/images/Liten4.jpg" }
+    ],
     "Mellan_images": [
       { "img": "/assets/images/Mellan.jpg" },
       { "img": "/assets/images/Mellan2.jpg" },
-      { "img": "/assets/images/Mellan3.jpg" }
+      { "img": "/assets/images/Mellan3.jpg" },
+      { "img": "/assets/images/Mellan4.jpg" }
     ],
     "Stor_images": [{ "img": "/assets/images/Stor.jpg" }],
     "Lyx_images": [{ "img": "/assets/images/Lyx.jpg" }]
