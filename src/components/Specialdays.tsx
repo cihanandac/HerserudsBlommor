@@ -10,37 +10,72 @@ import config from '../config/index.json';
 
 const Specialdays = () => {
   const { specialdays } = config;
+  const [dekorationImages1, dekorationImages2, dekorationImages3] =
+    specialdays.dekorationImages;
   const [firstItem, secondItem, thirdItem, fourthItem] = specialdays.items;
 
-  const [open, setOpen] = useState(false);
+  const [brudbuketterImagesOpen, setBrudbuketterImagesOpen] = useState(false);
+  const [dekorationImagesOpen, setDekorationImagesOpen] = useState(false);
+  const [nyblivnaImagesOpen, setNyblivnaImagesOpen] = useState(false);
+  const [begravningImagesOpen, setBegravningImagesOpen] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-  const images = [
+  const brudbuketterImages = [
     {
       src: firstItem?.img || '',
-      alt: firstItem?.title || '',
       title: firstItem?.title || '',
     },
+  ];
+
+  const eventDekorationImages = [
     {
       src: secondItem?.img || '',
-      alt: secondItem?.title || '',
       title: secondItem?.title || '',
     },
     {
-      src: thirdItem?.img || '',
-      alt: thirdItem?.title || '',
-      title: thirdItem?.title || '',
+      src: dekorationImages1?.img || '',
+      title: secondItem?.title || '',
     },
     {
+      src: dekorationImages2?.img || '',
+      title: secondItem?.title || '',
+    },
+    {
+      src: dekorationImages3?.img || '',
+      title: secondItem?.title || '',
+    },
+  ];
+  const nyblivnaImages = [
+    {
+      src: thirdItem?.img || '',
+      title: thirdItem?.title || '',
+    },
+  ];
+  const begravningImages = [
+    {
       src: fourthItem?.img || '',
-      alt: fourthItem?.title || '',
       title: fourthItem?.title || '',
     },
   ];
 
-  const handleClick = (index: any) => {
-    setCurrentImageIndex(index);
-    setOpen(true);
+  const handleClick = (image_type: string) => {
+    switch (image_type) {
+      case 'brudbuketter':
+        setBrudbuketterImagesOpen(true);
+        break;
+      case 'dekoration':
+        setDekorationImagesOpen(true);
+        break;
+      case 'nyblivna':
+        setNyblivnaImagesOpen(true);
+        break;
+      case 'begravning':
+        setBegravningImagesOpen(true);
+        break;
+      default:
+        break;
+    }
+    setCurrentImageIndex(0);
   };
 
   return (
@@ -66,7 +101,7 @@ const Specialdays = () => {
                 className="w-[250px] aspect-square rounded-full object-cover mx-auto cursor-pointer"
                 src={firstItem?.img}
                 alt={firstItem?.title}
-                onClick={() => handleClick(0)}
+                onClick={() => handleClick('brudbuketter')}
               />
             </div>
           </div>
@@ -83,7 +118,7 @@ const Specialdays = () => {
                 className="w-[250px] aspect-square rounded-full object-cover mx-auto cursor-pointer"
                 src={secondItem?.img}
                 alt={secondItem?.title}
-                onClick={() => handleClick(1)}
+                onClick={() => handleClick('dekoration')}
               />
             </div>
           </div>
@@ -100,7 +135,7 @@ const Specialdays = () => {
                 className="w-[250px] aspect-square rounded-full object-cover mx-auto cursor-pointer"
                 src={thirdItem?.img}
                 alt={thirdItem?.title}
-                onClick={() => handleClick(2)}
+                onClick={() => handleClick('nyblivna')}
               />
             </div>
           </div>
@@ -116,17 +151,59 @@ const Specialdays = () => {
                 className="w-[250px] aspect-square rounded-full object-cover mx-auto cursor-pointer"
                 src={fourthItem?.img}
                 alt={fourthItem?.title}
-                onClick={() => handleClick(3)}
+                onClick={() => handleClick('begravning')}
               />
             </div>
           </div>
         </div>
       </div>
-      {open && (
+      {brudbuketterImagesOpen && (
         <Lightbox
-          slides={images}
-          open={open}
-          close={() => setOpen(false)}
+          slides={brudbuketterImages}
+          open={brudbuketterImagesOpen}
+          close={() => setBrudbuketterImagesOpen(false)}
+          index={currentImageIndex}
+          plugins={[Captions]}
+          captions={{
+            // showToggle: true,
+            descriptionTextAlign: 'center',
+            descriptionMaxLines: 3,
+          }}
+        />
+      )}
+      {dekorationImagesOpen && (
+        <Lightbox
+          slides={eventDekorationImages}
+          open={dekorationImagesOpen}
+          close={() => setDekorationImagesOpen(false)}
+          index={currentImageIndex}
+          plugins={[Captions]}
+          captions={{
+            // showToggle: true,
+            descriptionTextAlign: 'center',
+            descriptionMaxLines: 3,
+          }}
+        />
+      )}
+      {nyblivnaImagesOpen && (
+        <Lightbox
+          slides={nyblivnaImages}
+          open={nyblivnaImagesOpen}
+          close={() => setNyblivnaImagesOpen(false)}
+          index={currentImageIndex}
+          plugins={[Captions]}
+          captions={{
+            // showToggle: true,
+            descriptionTextAlign: 'center',
+            descriptionMaxLines: 3,
+          }}
+        />
+      )}
+      {begravningImagesOpen && (
+        <Lightbox
+          slides={begravningImages}
+          open={begravningImagesOpen}
+          close={() => setBegravningImagesOpen(false)}
           index={currentImageIndex}
           plugins={[Captions]}
           captions={{

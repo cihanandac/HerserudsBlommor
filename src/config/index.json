@@ -93,7 +93,15 @@
         "description": "Hedra minnet av dina kära med våra stilfulla begravningsblommor. Vi hjälper dig att välja det perfekta arrangemanget för att uttrycka din sorg och respekt.",
         "img": "/assets/images/funeral.jpg"
       }
-    ]
+    ],
+    "brudbuketterImages": [{ "img": "" }],
+    "dekorationImages": [
+      { "img": "/assets/images/event/event1.jpeg" },
+      { "img": "/assets/images/event/event2.jpeg" },
+      { "img": "/assets/images/event/event3.jpeg" }
+    ],
+    "nyblivnaImages": [{ "img": "" }],
+    "begravningImages": [{ "img": "" }]
   },
   "subscription": {
     "title": "Subscription",
