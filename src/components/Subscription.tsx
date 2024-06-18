@@ -92,12 +92,11 @@ const Subscription = () => {
           <div className="h-1 mx-auto bg-primary w-64 opacity-25 my-0 py-0 rounded-t"></div>
         </div>
         <p className="m-4 max-w-2xl text-xl text-gray-500 lg:mx-auto font-sofiasans">
-          Vi har nu öppet 🌸 butik på Lidingö efter att ha varit i branschen i
-          ca 40 år. Vi skapar vackra buketter dekorationen och arrangemang till
-          fest och sorg. Vi har ett brett utbud av växter och gör även
-          planteringar. Vill du ge bort en blomster prenumeration som gåva eller
-          kanske till dig själv? Slå en signal 08 7553055 så fixar vi detta med
-          fri leveranskostnad inom Lidingö.
+          Vi skapar vackra buketter dekorationen och arrangemang till fest och
+          sorg. Vi har ett brett utbud av växter och gör även planteringar. Vill
+          du ge bort en blomster prenumeration som gåva eller kanske till dig
+          själv? Slå en signal så fixar vi detta med fri leveranskostnad inom
+          Lidingö.
         </p>
         <p className="m-4 max-w-2xl text-xl text-gray-500 lg:mx-auto font-sofiasans">
           <br />
