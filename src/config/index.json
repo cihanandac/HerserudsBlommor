@@ -147,7 +147,10 @@
       { "img": "/assets/images/Mellan4.jpg" }
     ],
     "Stor_images": [{ "img": "/assets/images/Stor.jpg" }],
-    "Lyx_images": [{ "img": "/assets/images/Lyx.jpg" }]
+    "Lyx_images": [
+      { "img": "/assets/images/Lyx.jpg" },
+      { "img": "/assets/images/Lyx2.jpg" }
+    ]
   },
   "features": {
     "title": "Latest & greatest ",

@@ -15,7 +15,7 @@ const Subscription = () => {
   const [mellanImgFirst, mellanImgSecond, mellanImgThird, mellanImgFourth] =
     subscription.Mellan_images;
   const [storImgFirst] = subscription.Stor_images;
-  const [lyxImgFirst] = subscription.Lyx_images;
+  const [lyxImgFirst, lyxImgSecond] = subscription.Lyx_images;
 
   const [litenImagesOpen, setLitenImagesOpen] = useState(false);
   const [mellanImagesOpen, setMellanImagesOpen] = useState(false);
@@ -59,6 +59,9 @@ const Subscription = () => {
   const lyxImages = [
     {
       src: lyxImgFirst?.img || '',
+    },
+    {
+      src: lyxImgSecond?.img || '',
     },
   ];
 
