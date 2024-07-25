@@ -16,7 +16,7 @@ const MainHero = () => {
         <br />
         <h3>
           ✨Hej kära Lidingö! Vi har semester stängt från 2024/07/06 till
-          2024/07/31 vi öppnar igen 2024/08/01 ✨
+          2024/08/15 vi öppnar igen 2024/08/16 ✨
         </h3>
         <br />
         <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0 font-sofiasans">
