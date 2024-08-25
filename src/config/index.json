@@ -107,7 +107,10 @@
     "begravningImages": [
       { "img": "/assets/images/funeral.jpg" },
       { "img": "/assets/images/funeral2.jpeg" },
-      { "img": "/assets/images/funeral3.jpeg" }
+      { "img": "/assets/images/funeral3.jpeg" },
+      { "img": "/assets/images/funeral4.jpeg" },
+      { "img": "/assets/images/funeral5.jpeg" },
+      { "img": "/assets/images/funeral6.jpeg" }
     ]
   },
   "subscription": {
