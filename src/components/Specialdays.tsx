@@ -10,8 +10,13 @@ import config from '../config/index.json';
 
 const Specialdays = () => {
   const { specialdays } = config;
-  const [dekorationImages1, dekorationImages2, dekorationImages3] =
-    specialdays.dekorationImages;
+  const [
+    dekorationImages1,
+    dekorationImages2,
+    dekorationImages3,
+    dekorationImages4,
+    dekorationImages5,
+  ] = specialdays.dekorationImages;
   const [brudbuketterImages1, brudbuketterImages2] =
     specialdays.brudbuketterImages;
   const [
@@ -21,6 +26,8 @@ const Specialdays = () => {
     begravningImages4,
     begravningImages5,
     begravningImages6,
+    begravningImages7,
+    begravningImages8,
   ] = specialdays.begravningImages;
   const [firstItem, secondItem, thirdItem, fourthItem] = specialdays.items;
 
@@ -58,6 +65,14 @@ const Specialdays = () => {
       src: dekorationImages3?.img || '',
       title: secondItem?.title || '',
     },
+    {
+      src: dekorationImages4?.img || '',
+      title: secondItem?.title || '',
+    },
+    {
+      src: dekorationImages5?.img || '',
+      title: secondItem?.title || '',
+    },
   ];
   const nyblivnaImages = [
     {
@@ -88,6 +103,14 @@ const Specialdays = () => {
     },
     {
       src: begravningImages6?.img || '',
+      title: fourthItem?.title || '',
+    },
+    {
+      src: begravningImages7?.img || '',
+      title: fourthItem?.title || '',
+    },
+    {
+      src: begravningImages8?.img || '',
       title: fourthItem?.title || '',
     },
   ];

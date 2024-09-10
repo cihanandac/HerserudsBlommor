@@ -101,7 +101,9 @@
     "dekorationImages": [
       { "img": "/assets/images/event/event1.jpeg" },
       { "img": "/assets/images/event/event2.jpeg" },
-      { "img": "/assets/images/event/event3.jpeg" }
+      { "img": "/assets/images/event/event3.jpeg" },
+      { "img": "/assets/images/event/event4.jpg" },
+      { "img": "/assets/images/event/event5.jpg" }
     ],
     "nyblivnaImages": [{ "img": "" }],
     "begravningImages": [
@@ -110,7 +112,9 @@
       { "img": "/assets/images/funeral3.jpeg" },
       { "img": "/assets/images/funeral4.jpeg" },
       { "img": "/assets/images/funeral5.jpeg" },
-      { "img": "/assets/images/funeral6.jpeg" }
+      { "img": "/assets/images/funeral6.jpeg" },
+      { "img": "/assets/images/funeral7.jpeg" },
+      { "img": "/assets/images/funeral8.jpeg" }
     ]
   },
   "subscription": {
