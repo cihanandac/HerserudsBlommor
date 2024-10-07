@@ -12,9 +12,14 @@ const Subscription = () => {
   const [firstItem, secondItem, thirdItem, fourthItem] = subscription.items;
   const [litenImg1, litenImg2, litenImg3, litenImg4] =
     subscription.Liten_images;
-  const [mellanImgFirst, mellanImgSecond, mellanImgThird, mellanImgFourth] =
-    subscription.Mellan_images;
-  const [storImgFirst] = subscription.Stor_images;
+  const [
+    mellanImgFirst,
+    mellanImgSecond,
+    mellanImgThird,
+    mellanImgFourth,
+    mellanImgFifth,
+  ] = subscription.Mellan_images;
+  const [storImgFirst, storImgSecond] = subscription.Stor_images;
   const [lyxImgFirst, lyxImgSecond] = subscription.Lyx_images;
 
   const [litenImagesOpen, setLitenImagesOpen] = useState(false);
@@ -50,10 +55,16 @@ const Subscription = () => {
     {
       src: mellanImgFourth?.img || '',
     },
+    {
+      src: mellanImgFifth?.img || '',
+    },
   ];
   const storImages = [
     {
       src: storImgFirst?.img || '',
+    },
+    {
+      src: storImgSecond?.img || '',
     },
   ];
   const lyxImages = [
@@ -104,9 +115,9 @@ const Subscription = () => {
         <p className="m-4 max-w-2xl text-xl text-gray-500 lg:mx-auto font-sofiasans">
           <br />
           <ul>
-            <li>Liten: 300kr</li>
-            <li>Mellan: 500kr</li>
-            <li>Stor: 700kr</li>
+            <li>Liten: från 300kr</li>
+            <li>Mellan: från 500kr</li>
+            <li>Stor: från 700kr</li>
             <li>Lyx: från 750kr</li>
           </ul>
         </p>

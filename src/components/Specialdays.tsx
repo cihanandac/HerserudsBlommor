@@ -19,9 +19,16 @@ const Specialdays = () => {
     dekorationImages6,
     dekorationImages7,
     dekorationImages8,
+    dekorationImages9,
+    dekorationImages10,
   ] = specialdays.dekorationImages;
-  const [brudbuketterImages1, brudbuketterImages2] =
-    specialdays.brudbuketterImages;
+  const [
+    brudbuketterImages1,
+    brudbuketterImages2,
+    brudbuketterImages3,
+    brudbuketterImages4,
+    brudbuketterImages5,
+  ] = specialdays.brudbuketterImages;
   const [
     begravningImages1,
     begravningImages2,
@@ -31,6 +38,12 @@ const Specialdays = () => {
     begravningImages6,
     begravningImages7,
     begravningImages8,
+    begravningImages9,
+    begravningImages10,
+    begravningImages11,
+    begravningImages12,
+    begravningImages13,
+    begravningImages14,
   ] = specialdays.begravningImages;
   const [firstItem, secondItem, thirdItem, fourthItem] = specialdays.items;
 
@@ -47,6 +60,18 @@ const Specialdays = () => {
     },
     {
       src: brudbuketterImages2?.img || '',
+      title: firstItem?.title || '',
+    },
+    {
+      src: brudbuketterImages3?.img || '',
+      title: firstItem?.title || '',
+    },
+    {
+      src: brudbuketterImages4?.img || '',
+      title: firstItem?.title || '',
+    },
+    {
+      src: brudbuketterImages5?.img || '',
       title: firstItem?.title || '',
     },
   ];
@@ -88,6 +113,14 @@ const Specialdays = () => {
       src: dekorationImages8?.img || '',
       title: secondItem?.title || '',
     },
+    {
+      src: dekorationImages9?.img || '',
+      title: secondItem?.title || '',
+    },
+    {
+      src: dekorationImages10?.img || '',
+      title: secondItem?.title || '',
+    },
   ];
   const nyblivnaImages = [
     {
@@ -126,6 +159,30 @@ const Specialdays = () => {
     },
     {
       src: begravningImages8?.img || '',
+      title: fourthItem?.title || '',
+    },
+    {
+      src: begravningImages9?.img || '',
+      title: fourthItem?.title || '',
+    },
+    {
+      src: begravningImages10?.img || '',
+      title: fourthItem?.title || '',
+    },
+    {
+      src: begravningImages11?.img || '',
+      title: fourthItem?.title || '',
+    },
+    {
+      src: begravningImages12?.img || '',
+      title: fourthItem?.title || '',
+    },
+    {
+      src: begravningImages13?.img || '',
+      title: fourthItem?.title || '',
+    },
+    {
+      src: begravningImages14?.img || '',
       title: fourthItem?.title || '',
     },
   ];
