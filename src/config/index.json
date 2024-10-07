@@ -148,11 +148,6 @@
         "title": "Stor",
         "description": "På bilderna stor storlek",
         "img": "/assets/images/Stor.jpg"
-      },
-      {
-        "title": "Lyx",
-        "description": "På bilderna lyx storlek",
-        "img": "/assets/images/Lyx.jpg"
       }
     ],
     "Liten_images": [
@@ -170,11 +165,9 @@
     ],
     "Stor_images": [
       { "img": "/assets/images/Stor.jpg" },
-      { "img": "/assets/images/Stor2.png" }
-    ],
-    "Lyx_images": [
-      { "img": "/assets/images/Lyx.jpg" },
-      { "img": "/assets/images/Lyx2.jpg" }
+      { "img": "/assets/images/Stor2.png" },
+      { "img": "/assets/images/stor3.jpg" },
+      { "img": "/assets/images/stor4.jpg" }
     ]
   },
   "features": {

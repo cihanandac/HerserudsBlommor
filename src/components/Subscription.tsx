@@ -9,7 +9,7 @@ import config from '../config/index.json';
 
 const Subscription = () => {
   const { subscription } = config;
-  const [firstItem, secondItem, thirdItem, fourthItem] = subscription.items;
+  const [firstItem, secondItem, thirdItem] = subscription.items;
   const [litenImg1, litenImg2, litenImg3, litenImg4] =
     subscription.Liten_images;
   const [
@@ -19,13 +19,12 @@ const Subscription = () => {
     mellanImgFourth,
     mellanImgFifth,
   ] = subscription.Mellan_images;
-  const [storImgFirst, storImgSecond] = subscription.Stor_images;
-  const [lyxImgFirst, lyxImgSecond] = subscription.Lyx_images;
+  const [storImgFirst, storImgSecond, storImgThird, storImgFourth] =
+    subscription.Stor_images;
 
   const [litenImagesOpen, setLitenImagesOpen] = useState(false);
   const [mellanImagesOpen, setMellanImagesOpen] = useState(false);
   const [storImagesOpen, setStorImagesOpen] = useState(false);
-  const [lyxImagesOpen, setLyxImagesOpen] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const litenImages = [
@@ -66,13 +65,11 @@ const Subscription = () => {
     {
       src: storImgSecond?.img || '',
     },
-  ];
-  const lyxImages = [
     {
-      src: lyxImgFirst?.img || '',
+      src: storImgThird?.img || '',
     },
     {
-      src: lyxImgSecond?.img || '',
+      src: storImgFourth?.img || '',
     },
   ];
 
@@ -86,9 +83,6 @@ const Subscription = () => {
         break;
       case 'Stor':
         setStorImagesOpen(true);
-        break;
-      case 'Lyx':
-        setLyxImagesOpen(true);
         break;
       default:
         break;
@@ -118,7 +112,6 @@ const Subscription = () => {
             <li>Liten: från 300kr</li>
             <li>Mellan: från 500kr</li>
             <li>Stor: från 700kr</li>
-            <li>Lyx: från 750kr</li>
           </ul>
         </p>
         <div className="flex flex-col sm:flex-row justify-center items-stretch pt-12 my-12 sm:my-4 space-y-8 sm:space-y-0 sm:space-x-8">
@@ -174,25 +167,6 @@ const Subscription = () => {
             </div>
           </div>
         </div>
-        {/* <!-- Lyx Section --> */}
-        <div className="flex flex-col sm:flex-row justify-center items-stretch sm:pt-12 my-12 sm:my-4 space-y-8 sm:space-y-0 sm:space-x-8">
-          <div className="flex flex-col h-full items-center text-center w-full sm:w-1/3 flex-grow">
-            <div className="w-full p-6 flex-grow">
-              <h3 className="text-xl font-bold mb-2 text-secondary font-sofiasans">
-                {fourthItem?.title}
-              </h3>
-              <p className="mb-4 text-secondary font-sofiasans">
-                {fourthItem?.description}
-              </p>
-              <img
-                className="w-[450px] aspect-square object-cover mx-auto cursor-pointer rounded-full"
-                src={fourthItem?.img}
-                alt={fourthItem?.title}
-                onClick={() => handleClick('Lyx')}
-              />
-            </div>
-          </div>
-        </div>
       </div>
       {litenImagesOpen && (
         <Lightbox
@@ -227,20 +201,6 @@ const Subscription = () => {
           slides={storImages}
           open={storImagesOpen}
           close={() => setStorImagesOpen(false)}
-          index={currentImageIndex}
-          // plugins={[Captions]}
-          captions={{
-            // showToggle: true,
-            descriptionTextAlign: 'center',
-            descriptionMaxLines: 3,
-          }}
-        />
-      )}
-      {lyxImagesOpen && (
-        <Lightbox
-          slides={lyxImages}
-          open={lyxImagesOpen}
-          close={() => setLyxImagesOpen(false)}
           index={currentImageIndex}
           // plugins={[Captions]}
           captions={{
