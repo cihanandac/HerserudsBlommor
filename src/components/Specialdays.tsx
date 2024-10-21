@@ -21,6 +21,9 @@ const Specialdays = () => {
     dekorationImages8,
     dekorationImages9,
     dekorationImages10,
+    dekorationImages11,
+    dekorationImages12,
+    dekorationImages13,
   ] = specialdays.dekorationImages;
   const [
     brudbuketterImages1,
@@ -44,6 +47,7 @@ const Specialdays = () => {
     begravningImages12,
     begravningImages13,
     begravningImages14,
+    begravningImages15,
   ] = specialdays.begravningImages;
   const [firstItem, secondItem, thirdItem, fourthItem] = specialdays.items;
 
@@ -121,6 +125,18 @@ const Specialdays = () => {
       src: dekorationImages10?.img || '',
       title: secondItem?.title || '',
     },
+    {
+      src: dekorationImages11?.img || '',
+      title: secondItem?.title || '',
+    },
+    {
+      src: dekorationImages12?.img || '',
+      title: secondItem?.title || '',
+    },
+    {
+      src: dekorationImages13?.img || '',
+      title: secondItem?.title || '',
+    },
   ];
   const nyblivnaImages = [
     {
@@ -183,6 +199,10 @@ const Specialdays = () => {
     },
     {
       src: begravningImages14?.img || '',
+      title: fourthItem?.title || '',
+    },
+    {
+      src: begravningImages15?.img || '',
       title: fourthItem?.title || '',
     },
   ];

@@ -10,8 +10,19 @@ import config from '../config/index.json';
 const Subscription = () => {
   const { subscription } = config;
   const [firstItem, secondItem, thirdItem] = subscription.items;
-  const [litenImg1, litenImg2, litenImg3, litenImg4] =
-    subscription.Liten_images;
+  const [
+    litenImg1,
+    litenImg2,
+    litenImg3,
+    litenImg4,
+    litenImg5,
+    litenImg6,
+    litenImg7,
+    litenImg8,
+    litenImg9,
+    litenImg10,
+    litenImg11,
+  ] = subscription.Liten_images;
   const [
     mellanImgFirst,
     mellanImgSecond,
@@ -19,8 +30,13 @@ const Subscription = () => {
     mellanImgFourth,
     mellanImgFifth,
   ] = subscription.Mellan_images;
-  const [storImgFirst, storImgSecond, storImgThird, storImgFourth] =
-    subscription.Stor_images;
+  const [
+    storImgFirst,
+    storImgSecond,
+    storImgThird,
+    storImgFourth,
+    storImgFifth,
+  ] = subscription.Stor_images;
 
   const [litenImagesOpen, setLitenImagesOpen] = useState(false);
   const [mellanImagesOpen, setMellanImagesOpen] = useState(false);
@@ -39,6 +55,27 @@ const Subscription = () => {
     },
     {
       src: litenImg4?.img || '',
+    },
+    {
+      src: litenImg5?.img || '',
+    },
+    {
+      src: litenImg6?.img || '',
+    },
+    {
+      src: litenImg7?.img || '',
+    },
+    {
+      src: litenImg8?.img || '',
+    },
+    {
+      src: litenImg9?.img || '',
+    },
+    {
+      src: litenImg10?.img || '',
+    },
+    {
+      src: litenImg11?.img || '',
     },
   ];
   const mellanImages = [
@@ -70,6 +107,9 @@ const Subscription = () => {
     },
     {
       src: storImgFourth?.img || '',
+    },
+    {
+      src: storImgFifth?.img || '',
     },
   ];
 
