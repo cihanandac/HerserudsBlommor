@@ -24,6 +24,8 @@ const Specialdays = () => {
     dekorationImages11,
     dekorationImages12,
     dekorationImages13,
+    dekorationImages14,
+    dekorationImages15,
   ] = specialdays.dekorationImages;
   const [
     brudbuketterImages1,
@@ -135,6 +137,14 @@ const Specialdays = () => {
     },
     {
       src: dekorationImages13?.img || '',
+      title: secondItem?.title || '',
+    },
+    {
+      src: dekorationImages14?.img || '',
+      title: secondItem?.title || '',
+    },
+    {
+      src: dekorationImages15?.img || '',
       title: secondItem?.title || '',
     },
   ];

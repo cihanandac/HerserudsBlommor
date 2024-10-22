@@ -114,7 +114,9 @@
       { "img": "/assets/images/event/event10.jpg" },
       { "img": "/assets/images/event/event11.jpg" },
       { "img": "/assets/images/event/event12.jpg" },
-      { "img": "/assets/images/event/event13.jpg" }
+      { "img": "/assets/images/event/event13.jpg" },
+      { "img": "/assets/images/event/event14.jpg" },
+      { "img": "/assets/images/event/event15.jpg" }
     ],
     "nyblivnaImages": [{ "img": "" }],
     "begravningImages": [
