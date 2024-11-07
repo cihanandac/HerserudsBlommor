@@ -116,7 +116,8 @@
       { "img": "/assets/images/event/event12.jpg" },
       { "img": "/assets/images/event/event13.jpg" },
       { "img": "/assets/images/event/event14.jpg" },
-      { "img": "/assets/images/event/event15.jpg" }
+      { "img": "/assets/images/event/event15.jpg" },
+      { "img": "/assets/images/event/event16.jpg" }
     ],
     "nyblivnaImages": [{ "img": "" }],
     "begravningImages": [
@@ -134,7 +135,14 @@
       { "img": "/assets/images/funeral12.jpg" },
       { "img": "/assets/images/funeral13.jpg" },
       { "img": "/assets/images/funeral14.jpg" },
-      { "img": "/assets/images/funeral15.jpg" }
+      { "img": "/assets/images/funeral15.jpg" },
+      { "img": "/assets/images/funeral16.jpg" },
+      { "img": "/assets/images/funeral17.jpg" },
+      { "img": "/assets/images/funeral18.jpg" },
+      { "img": "/assets/images/funeral19.jpg" },
+      { "img": "/assets/images/funeral20.jpg" },
+      { "img": "/assets/images/funeral21.jpg" },
+      { "img": "/assets/images/funeral22.jpg" }
     ]
   },
   "subscription": {
@@ -174,7 +182,8 @@
       { "img": "/assets/images/Mellan2.jpg" },
       { "img": "/assets/images/Mellan3.jpg" },
       { "img": "/assets/images/Mellan4.jpg" },
-      { "img": "/assets/images/Mellan5.jpeg" }
+      { "img": "/assets/images/Mellan5.jpeg" },
+      { "img": "/assets/images/Mellan6.jpg" }
     ],
     "Stor_images": [
       { "img": "/assets/images/Stor.jpg" },

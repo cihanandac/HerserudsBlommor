@@ -29,6 +29,7 @@ const Subscription = () => {
     mellanImgThird,
     mellanImgFourth,
     mellanImgFifth,
+    mellanImgSixth,
   ] = subscription.Mellan_images;
   const [
     storImgFirst,
@@ -93,6 +94,9 @@ const Subscription = () => {
     },
     {
       src: mellanImgFifth?.img || '',
+    },
+    {
+      src: mellanImgSixth?.img || '',
     },
   ];
   const storImages = [

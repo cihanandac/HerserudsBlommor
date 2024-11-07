@@ -26,6 +26,7 @@ const Specialdays = () => {
     dekorationImages13,
     dekorationImages14,
     dekorationImages15,
+    dekorationImages16,
   ] = specialdays.dekorationImages;
   const [
     brudbuketterImages1,
@@ -50,6 +51,13 @@ const Specialdays = () => {
     begravningImages13,
     begravningImages14,
     begravningImages15,
+    begravningImages16,
+    begravningImages17,
+    begravningImages18,
+    begravningImages19,
+    begravningImages20,
+    begravningImages21,
+    begravningImages22,
   ] = specialdays.begravningImages;
   const [firstItem, secondItem, thirdItem, fourthItem] = specialdays.items;
 
@@ -147,6 +155,10 @@ const Specialdays = () => {
       src: dekorationImages15?.img || '',
       title: secondItem?.title || '',
     },
+    {
+      src: dekorationImages16?.img || '',
+      title: secondItem?.title || '',
+    },
   ];
   const nyblivnaImages = [
     {
@@ -213,6 +225,34 @@ const Specialdays = () => {
     },
     {
       src: begravningImages15?.img || '',
+      title: fourthItem?.title || '',
+    },
+    {
+      src: begravningImages16?.img || '',
+      title: fourthItem?.title || '',
+    },
+    {
+      src: begravningImages17?.img || '',
+      title: fourthItem?.title || '',
+    },
+    {
+      src: begravningImages18?.img || '',
+      title: fourthItem?.title || '',
+    },
+    {
+      src: begravningImages19?.img || '',
+      title: fourthItem?.title || '',
+    },
+    {
+      src: begravningImages20?.img || '',
+      title: fourthItem?.title || '',
+    },
+    {
+      src: begravningImages21?.img || '',
+      title: fourthItem?.title || '',
+    },
+    {
+      src: begravningImages22?.img || '',
       title: fourthItem?.title || '',
     },
   ];
