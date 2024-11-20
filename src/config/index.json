@@ -106,9 +106,7 @@
       { "img": "/assets/images/event/event2.jpeg" },
       { "img": "/assets/images/event/event3.jpeg" },
       { "img": "/assets/images/event/event4.jpg" },
-      { "img": "/assets/images/event/event5.jpg" },
       { "img": "/assets/images/event/event6.jpg" },
-      { "img": "/assets/images/event/event7.jpg" },
       { "img": "/assets/images/event/event8.jpg" },
       { "img": "/assets/images/event/event9.jpg" },
       { "img": "/assets/images/event/event10.jpg" },
@@ -144,7 +142,10 @@
       { "img": "/assets/images/funeral21.jpg" },
       { "img": "/assets/images/funeral22.jpg" },
       { "img": "/assets/images/funeral23.jpg" },
-      { "img": "/assets/images/funeral24.jpg" }
+      { "img": "/assets/images/funeral24.jpg" },
+      { "img": "/assets/images/funeral25.jpg" },
+      { "img": "/assets/images/funeral26.jpg" },
+      { "img": "/assets/images/funeral27.jpg" }
     ]
   },
   "subscription": {
@@ -185,7 +186,8 @@
       { "img": "/assets/images/Mellan3.jpg" },
       { "img": "/assets/images/Mellan4.jpg" },
       { "img": "/assets/images/Mellan5.jpeg" },
-      { "img": "/assets/images/Mellan6.jpg" }
+      { "img": "/assets/images/Mellan6.jpg" },
+      { "img": "/assets/images/Mellan7.jpeg" }
     ],
     "Stor_images": [
       { "img": "/assets/images/Stor.jpg" },
