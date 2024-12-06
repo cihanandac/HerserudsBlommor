@@ -22,6 +22,7 @@ const Subscription = () => {
     litenImg9,
     litenImg10,
     litenImg11,
+    litenImg12,
   ] = subscription.Liten_images;
   const [
     mellanImgFirst,
@@ -31,6 +32,8 @@ const Subscription = () => {
     mellanImgFifth,
     mellanImgSixth,
     mellanImgSeventh,
+    mellanImgEight,
+    mellanImgNinth,
   ] = subscription.Mellan_images;
   const [
     storImgFirst,
@@ -38,6 +41,7 @@ const Subscription = () => {
     storImgThird,
     storImgFourth,
     storImgFifth,
+    storImgSixth,
   ] = subscription.Stor_images;
 
   const [litenImagesOpen, setLitenImagesOpen] = useState(false);
@@ -79,6 +83,9 @@ const Subscription = () => {
     {
       src: litenImg11?.img || '',
     },
+    {
+      src: litenImg12?.img || '',
+    },
   ];
   const mellanImages = [
     {
@@ -102,6 +109,12 @@ const Subscription = () => {
     {
       src: mellanImgSeventh?.img || '',
     },
+    {
+      src: mellanImgEight?.img || '',
+    },
+    {
+      src: mellanImgNinth?.img || '',
+    },
   ];
   const storImages = [
     {
@@ -118,6 +131,9 @@ const Subscription = () => {
     },
     {
       src: storImgFifth?.img || '',
+    },
+    {
+      src: storImgSixth?.img || '',
     },
   ];
 

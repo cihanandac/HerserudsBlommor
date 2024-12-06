@@ -32,6 +32,8 @@ const Specialdays = () => {
     brudbuketterImages3,
     brudbuketterImages4,
     brudbuketterImages5,
+    brudbuketterImages6,
+    brudbuketterImages7,
   ] = specialdays.brudbuketterImages;
   const [
     begravningImages1,
@@ -89,6 +91,14 @@ const Specialdays = () => {
     },
     {
       src: brudbuketterImages5?.img || '',
+      title: firstItem?.title || '',
+    },
+    {
+      src: brudbuketterImages6?.img || '',
+      title: firstItem?.title || '',
+    },
+    {
+      src: brudbuketterImages7?.img || '',
       title: firstItem?.title || '',
     },
   ];

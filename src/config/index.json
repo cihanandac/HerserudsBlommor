@@ -99,7 +99,9 @@
       { "img": "/assets/images/bridal2.jpg" },
       { "img": "/assets/images/bridal3.jpg" },
       { "img": "/assets/images/bridal4.jpg" },
-      { "img": "/assets/images/bridal5.jpg" }
+      { "img": "/assets/images/bridal5.jpg" },
+      { "img": "/assets/images/bridal6.jpg" },
+      { "img": "/assets/images/bridal7.jpg" }
     ],
     "dekorationImages": [
       { "img": "/assets/images/event/event1.jpeg" },
@@ -178,7 +180,8 @@
       { "img": "/assets/images/Liten8.jpg" },
       { "img": "/assets/images/Liten9.jpg" },
       { "img": "/assets/images/Liten10.jpg" },
-      { "img": "/assets/images/Liten11.jpg" }
+      { "img": "/assets/images/Liten11.jpg" },
+      { "img": "/assets/images/Liten12.jpg" }
     ],
     "Mellan_images": [
       { "img": "/assets/images/Mellan.jpg" },
@@ -187,14 +190,17 @@
       { "img": "/assets/images/Mellan4.jpg" },
       { "img": "/assets/images/Mellan5.jpeg" },
       { "img": "/assets/images/Mellan6.jpg" },
-      { "img": "/assets/images/Mellan7.jpeg" }
+      { "img": "/assets/images/Mellan7.jpeg" },
+      { "img": "/assets/images/Mellan8.jpg" },
+      { "img": "/assets/images/Mellan9.jpg" }
     ],
     "Stor_images": [
       { "img": "/assets/images/Stor.jpg" },
       { "img": "/assets/images/Stor2.png" },
       { "img": "/assets/images/stor3.jpg" },
       { "img": "/assets/images/stor4.jpg" },
-      { "img": "/assets/images/stor5.jpg" }
+      { "img": "/assets/images/stor5.jpg" },
+      { "img": "/assets/images/stor6.jpg" }
     ]
   },
   "features": {
