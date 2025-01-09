@@ -23,26 +23,26 @@ const Subscription = () => {
     litenImg10,
     litenImg11,
     litenImg12,
+    litenImg13,
+    litenImg14,
+    litenImg15,
   ] = subscription.Liten_images;
   const [
-    mellanImgFirst,
-    mellanImgSecond,
-    mellanImgThird,
-    mellanImgFourth,
-    mellanImgFifth,
-    mellanImgSixth,
-    mellanImgSeventh,
-    mellanImgEight,
-    mellanImgNinth,
+    mellanImg1,
+    mellanImg2,
+    mellanImg3,
+    mellanImg4,
+    mellanImg5,
+    mellanImg6,
+    mellanImg7,
+    mellanImg8,
+    mellanImg9,
+    mellanImg10,
+    mellanImg11,
+    mellanImg12,
   ] = subscription.Mellan_images;
-  const [
-    storImgFirst,
-    storImgSecond,
-    storImgThird,
-    storImgFourth,
-    storImgFifth,
-    storImgSixth,
-  ] = subscription.Stor_images;
+  const [storImg1, storImg2, storImg3, storImg4, storImg5, storImg6] =
+    subscription.Stor_images;
 
   const [litenImagesOpen, setLitenImagesOpen] = useState(false);
   const [mellanImagesOpen, setMellanImagesOpen] = useState(false);
@@ -86,54 +86,72 @@ const Subscription = () => {
     {
       src: litenImg12?.img || '',
     },
+    {
+      src: litenImg13?.img || '',
+    },
+    {
+      src: litenImg14?.img || '',
+    },
+    {
+      src: litenImg15?.img || '',
+    },
   ];
   const mellanImages = [
     {
-      src: mellanImgFirst?.img || '',
+      src: mellanImg1?.img || '',
     },
     {
-      src: mellanImgSecond?.img || '',
+      src: mellanImg2?.img || '',
     },
     {
-      src: mellanImgThird?.img || '',
+      src: mellanImg3?.img || '',
     },
     {
-      src: mellanImgFourth?.img || '',
+      src: mellanImg4?.img || '',
     },
     {
-      src: mellanImgFifth?.img || '',
+      src: mellanImg5?.img || '',
     },
     {
-      src: mellanImgSixth?.img || '',
+      src: mellanImg6?.img || '',
     },
     {
-      src: mellanImgSeventh?.img || '',
+      src: mellanImg7?.img || '',
     },
     {
-      src: mellanImgEight?.img || '',
+      src: mellanImg8?.img || '',
     },
     {
-      src: mellanImgNinth?.img || '',
+      src: mellanImg9?.img || '',
+    },
+    {
+      src: mellanImg10?.img || '',
+    },
+    {
+      src: mellanImg11?.img || '',
+    },
+    {
+      src: mellanImg12?.img || '',
     },
   ];
   const storImages = [
     {
-      src: storImgFirst?.img || '',
+      src: storImg1?.img || '',
     },
     {
-      src: storImgSecond?.img || '',
+      src: storImg2?.img || '',
     },
     {
-      src: storImgThird?.img || '',
+      src: storImg3?.img || '',
     },
     {
-      src: storImgFourth?.img || '',
+      src: storImg4?.img || '',
     },
     {
-      src: storImgFifth?.img || '',
+      src: storImg5?.img || '',
     },
     {
-      src: storImgSixth?.img || '',
+      src: storImg6?.img || '',
     },
   ];
 
