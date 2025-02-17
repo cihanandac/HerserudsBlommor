@@ -120,9 +120,15 @@
       { "img": "/assets/images/event/event16.jpg" },
       { "img": "/assets/images/event/event17.jpg" },
       { "img": "/assets/images/event/event18.jpg" },
-      { "img": "/assets/images/event/event19.jpg" }
+      { "img": "/assets/images/event/event19.jpg" },
+      { "img": "/assets/images/event/event20.jpg" },
+      { "img": "/assets/images/event/event21.jpg" },
+      { "img": "/assets/images/event/event22.jpg" }
     ],
-    "nyblivnaImages": [{ "img": "" }],
+    "nyblivnaImages": [
+      { "img": "/assets/images/birth1.jpg" },
+      { "img": "/assets/images/birth2.jpg" }
+    ],
     "begravningImages": [
       { "img": "/assets/images/funeral.jpg" },
       { "img": "/assets/images/funeral2.jpeg" },
@@ -151,7 +157,10 @@
       { "img": "/assets/images/funeral25.jpg" },
       { "img": "/assets/images/funeral26.jpg" },
       { "img": "/assets/images/funeral27.jpg" },
-      { "img": "/assets/images/funeral28.jpg" }
+      { "img": "/assets/images/funeral28.jpg" },
+      { "img": "/assets/images/funeral29.jpg" },
+      { "img": "/assets/images/funeral30.jpg" },
+      { "img": "/assets/images/funeral31.jpg" }
     ]
   },
   "subscription": {
@@ -188,7 +197,9 @@
       { "img": "/assets/images/Liten12.jpg" },
       { "img": "/assets/images/Liten13.jpg" },
       { "img": "/assets/images/Liten14.jpg" },
-      { "img": "/assets/images/Liten15.jpg" }
+      { "img": "/assets/images/Liten15.jpg" },
+      { "img": "/assets/images/Liten16.jpg" },
+      { "img": "/assets/images/Liten17.jpg" }
     ],
     "Mellan_images": [
       { "img": "/assets/images/Mellan.jpg" },
@@ -202,7 +213,9 @@
       { "img": "/assets/images/Mellan9.jpg" },
       { "img": "/assets/images/Mellan10.jpg" },
       { "img": "/assets/images/Mellan11.jpg" },
-      { "img": "/assets/images/Mellan12.jpg" }
+      { "img": "/assets/images/Mellan12.jpg" },
+      { "img": "/assets/images/Mellan13.jpg" },
+      { "img": "/assets/images/Mellan14.jpg" }
     ],
     "Stor_images": [
       { "img": "/assets/images/Stor.jpg" },
@@ -210,7 +223,11 @@
       { "img": "/assets/images/stor3.jpg" },
       { "img": "/assets/images/stor4.jpg" },
       { "img": "/assets/images/stor5.jpg" },
-      { "img": "/assets/images/stor6.jpg" }
+      { "img": "/assets/images/stor6.jpg" },
+      { "img": "/assets/images/stor7.jpg" },
+      { "img": "/assets/images/stor8.jpg" },
+      { "img": "/assets/images/stor9.jpg" },
+      { "img": "/assets/images/stor10.jpg" }
     ]
   },
   "features": {

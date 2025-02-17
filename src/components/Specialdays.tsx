@@ -25,6 +25,12 @@ const Specialdays = () => {
     dekorationImages14,
     dekorationImages15,
     dekorationImages16,
+    dekorationImages17,
+    dekorationImages18,
+    dekorationImages19,
+    dekorationImages20,
+    dekorationImages21,
+    dekorationImages22,
   ] = specialdays.dekorationImages;
   const [
     brudbuketterImages1,
@@ -35,6 +41,7 @@ const Specialdays = () => {
     brudbuketterImages6,
     brudbuketterImages7,
   ] = specialdays.brudbuketterImages;
+  const [birth1, birth2] = specialdays.nyblivnaImages;
   const [
     begravningImages1,
     begravningImages2,
@@ -64,6 +71,9 @@ const Specialdays = () => {
     begravningImages26,
     begravningImages27,
     begravningImages28,
+    begravningImages29,
+    begravningImages30,
+    begravningImages31,
   ] = specialdays.begravningImages;
   const [firstItem, secondItem, thirdItem, fourthItem] = specialdays.items;
 
@@ -165,10 +175,42 @@ const Specialdays = () => {
       src: dekorationImages16?.img || '',
       title: secondItem?.title || '',
     },
+    {
+      src: dekorationImages17?.img || '',
+      title: secondItem?.title || '',
+    },
+    {
+      src: dekorationImages18?.img || '',
+      title: secondItem?.title || '',
+    },
+    {
+      src: dekorationImages19?.img || '',
+      title: secondItem?.title || '',
+    },
+    {
+      src: dekorationImages20?.img || '',
+      title: secondItem?.title || '',
+    },
+    {
+      src: dekorationImages21?.img || '',
+      title: secondItem?.title || '',
+    },
+    {
+      src: dekorationImages22?.img || '',
+      title: secondItem?.title || '',
+    },
   ];
   const nyblivnaImages = [
     {
       src: thirdItem?.img || '',
+      title: thirdItem?.title || '',
+    },
+    {
+      src: birth1?.img || '',
+      title: thirdItem?.title || '',
+    },
+    {
+      src: birth2?.img || '',
       title: thirdItem?.title || '',
     },
   ];
@@ -283,6 +325,18 @@ const Specialdays = () => {
     },
     {
       src: begravningImages28?.img || '',
+      title: fourthItem?.title || '',
+    },
+    {
+      src: begravningImages29?.img || '',
+      title: fourthItem?.title || '',
+    },
+    {
+      src: begravningImages30?.img || '',
+      title: fourthItem?.title || '',
+    },
+    {
+      src: begravningImages31?.img || '',
       title: fourthItem?.title || '',
     },
   ];
