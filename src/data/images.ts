@@ -49,6 +49,7 @@ export const storImages = [
   { img: `${bouquetImagesPath}/stor/stor8.jpg` },
   { img: `${bouquetImagesPath}/stor/stor9.jpg` },
   { img: `${bouquetImagesPath}/stor/stor10.jpg` },
+  { img: `${bouquetImagesPath}/stor/stor11.jpg` },
 ];
 
 export const eventImages = [
@@ -123,4 +124,5 @@ export const funeralImages = [
   { img: `${specialImagesPath}/funeral/funeral29.jpg` },
   { img: `${specialImagesPath}/funeral/funeral30.jpg` },
   { img: `${specialImagesPath}/funeral/funeral31.jpg` },
+  { img: `${specialImagesPath}/funeral/funeral32.jpg` },
 ];
