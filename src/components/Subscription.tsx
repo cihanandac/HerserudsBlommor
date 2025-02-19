@@ -1,200 +1,35 @@
 import React, { useState } from 'react';
 
 import Lightbox from 'yet-another-react-lightbox';
+
 // import Captions from 'yet-another-react-lightbox/plugins/captions';
 import 'yet-another-react-lightbox/styles.css';
 // import 'yet-another-react-lightbox/plugins/captions.css';
-
 import config from '../config/index.json';
+import {
+  litenImages as litenImagesData,
+  mellanImages as mellanImagesData,
+  storImages as storImagesData,
+} from '../data/images';
 
 const Subscription = () => {
   const { subscription } = config;
   const [firstItem, secondItem, thirdItem] = subscription.items;
-  const [
-    litenImg1,
-    litenImg2,
-    litenImg3,
-    litenImg4,
-    litenImg5,
-    litenImg6,
-    litenImg7,
-    litenImg8,
-    litenImg9,
-    litenImg10,
-    litenImg11,
-    litenImg12,
-    litenImg13,
-    litenImg14,
-    litenImg15,
-    litenImg16,
-    litenImg17,
-  ] = subscription.Liten_images;
-  const [
-    mellanImg1,
-    mellanImg2,
-    mellanImg3,
-    mellanImg4,
-    mellanImg5,
-    mellanImg6,
-    mellanImg7,
-    mellanImg8,
-    mellanImg9,
-    mellanImg10,
-    mellanImg11,
-    mellanImg12,
-    mellanImg13,
-    mellanImg14,
-  ] = subscription.Mellan_images;
-  const [
-    storImg1,
-    storImg2,
-    storImg3,
-    storImg4,
-    storImg5,
-    storImg6,
-    storImg7,
-    storImg8,
-    storImg9,
-    storImg10,
-  ] = subscription.Stor_images;
 
   const [litenImagesOpen, setLitenImagesOpen] = useState(false);
   const [mellanImagesOpen, setMellanImagesOpen] = useState(false);
   const [storImagesOpen, setStorImagesOpen] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-  const litenImages = [
-    {
-      src: litenImg1?.img || '',
-    },
-    {
-      src: litenImg2?.img || '',
-    },
-    {
-      src: litenImg3?.img || '',
-    },
-    {
-      src: litenImg4?.img || '',
-    },
-    {
-      src: litenImg5?.img || '',
-    },
-    {
-      src: litenImg6?.img || '',
-    },
-    {
-      src: litenImg7?.img || '',
-    },
-    {
-      src: litenImg8?.img || '',
-    },
-    {
-      src: litenImg9?.img || '',
-    },
-    {
-      src: litenImg10?.img || '',
-    },
-    {
-      src: litenImg11?.img || '',
-    },
-    {
-      src: litenImg12?.img || '',
-    },
-    {
-      src: litenImg13?.img || '',
-    },
-    {
-      src: litenImg14?.img || '',
-    },
-    {
-      src: litenImg15?.img || '',
-    },
-    {
-      src: litenImg15?.img || '',
-    },
-    {
-      src: litenImg16?.img || '',
-    },
-    {
-      src: litenImg17?.img || '',
-    },
-  ];
-  const mellanImages = [
-    {
-      src: mellanImg1?.img || '',
-    },
-    {
-      src: mellanImg2?.img || '',
-    },
-    {
-      src: mellanImg3?.img || '',
-    },
-    {
-      src: mellanImg4?.img || '',
-    },
-    {
-      src: mellanImg5?.img || '',
-    },
-    {
-      src: mellanImg6?.img || '',
-    },
-    {
-      src: mellanImg7?.img || '',
-    },
-    {
-      src: mellanImg8?.img || '',
-    },
-    {
-      src: mellanImg9?.img || '',
-    },
-    {
-      src: mellanImg10?.img || '',
-    },
-    {
-      src: mellanImg11?.img || '',
-    },
-    {
-      src: mellanImg12?.img || '',
-    },
-    {
-      src: mellanImg13?.img || '',
-    },
-    {
-      src: mellanImg14?.img || '',
-    },
-  ];
-  const storImages = [
-    {
-      src: storImg1?.img || '',
-    },
-    {
-      src: storImg2?.img || '',
-    },
-    {
-      src: storImg3?.img || '',
-    },
-    {
-      src: storImg4?.img || '',
-    },
-    {
-      src: storImg5?.img || '',
-    },
-    {
-      src: storImg6?.img || '',
-    },
-    {
-      src: storImg7?.img || '',
-    },
-    {
-      src: storImg8?.img || '',
-    },
-    {
-      src: storImg9?.img || '',
-    },
-    {
-      src: storImg10?.img || '',
-    },
-  ];
+  const litenImages = litenImagesData.map((image) => ({
+    src: image.img || '',
+  }));
+  const mellanImages = mellanImagesData.map((image) => ({
+    src: image.img || '',
+  }));
+  const storImages = storImagesData.map((image) => ({
+    src: image.img || '',
+  }));
 
   const handleClick = (image_type: string) => {
     switch (image_type) {
