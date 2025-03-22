@@ -36,6 +36,12 @@ export const mellanImages = [
   { img: `${bouquetImagesPath}/mellan/Mellan12.jpg` },
   { img: `${bouquetImagesPath}/mellan/Mellan13.jpg` },
   { img: `${bouquetImagesPath}/mellan/Mellan14.jpg` },
+  { img: `${bouquetImagesPath}/mellan/Mellan15.jpg` },
+  { img: `${bouquetImagesPath}/mellan/Mellan16.jpg` },
+  { img: `${bouquetImagesPath}/mellan/Mellan17.jpg` },
+  { img: `${bouquetImagesPath}/mellan/Mellan18.jpg` },
+  { img: `${bouquetImagesPath}/mellan/Mellan19.jpg` },
+  { img: `${bouquetImagesPath}/mellan/Mellan20.jpg` },
 ];
 
 export const storImages = [
@@ -50,6 +56,8 @@ export const storImages = [
   { img: `${bouquetImagesPath}/stor/stor9.jpg` },
   { img: `${bouquetImagesPath}/stor/stor10.jpg` },
   { img: `${bouquetImagesPath}/stor/stor11.jpg` },
+  { img: `${bouquetImagesPath}/stor/stor12.jpg` },
+  { img: `${bouquetImagesPath}/stor/stor13.jpg` },
 ];
 
 export const eventImages = [
@@ -74,6 +82,9 @@ export const eventImages = [
   { img: `${specialImagesPath}/event/event20.jpg` },
   { img: `${specialImagesPath}/event/event21.jpg` },
   { img: `${specialImagesPath}/event/event22.jpg` },
+  { img: `${specialImagesPath}/event/event23.jpg` },
+  { img: `${specialImagesPath}/event/event24.jpg` },
+  { img: `${specialImagesPath}/event/event25.jpg` },
 ];
 
 export const birthImages = [
