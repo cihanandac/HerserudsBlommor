@@ -75,7 +75,7 @@ const Features = () => {
                   </tr>
                   <tr>
                     <td>Söndag</td>
-                    <td>Stängt</td>
+                    <td>10:00 - 17:00</td>
                   </tr>
                 </tbody>
               </table>
