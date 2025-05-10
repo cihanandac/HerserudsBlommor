@@ -136,4 +136,5 @@ export const funeralImages = [
   { img: `${specialImagesPath}/funeral/funeral30.jpg` },
   { img: `${specialImagesPath}/funeral/funeral31.jpg` },
   { img: `${specialImagesPath}/funeral/funeral32.jpg` },
+  { img: `${specialImagesPath}/funeral/funeral33.jpg` },
 ];
