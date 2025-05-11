@@ -19,6 +19,8 @@ export const litenImages = [
   { img: `${bouquetImagesPath}/liten/Liten15.jpg` },
   { img: `${bouquetImagesPath}/liten/Liten16.jpg` },
   { img: `${bouquetImagesPath}/liten/Liten17.jpg` },
+  { img: `${bouquetImagesPath}/liten/Liten18.jpg` },
+  { img: `${bouquetImagesPath}/liten/Liten19.jpg` },
 ];
 
 export const mellanImages = [
