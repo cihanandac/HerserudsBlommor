@@ -59,10 +59,7 @@ const Subscription = () => {
         </div>
         <p className="m-4 max-w-2xl text-xl text-gray-500 lg:mx-auto font-sofiasans">
           Vi skapar vackra buketter dekorationen och arrangemang till fest och
-          sorg. Vi har ett brett utbud av växter och gör även planteringar. Vill
-          du ge bort en blomster prenumeration som gåva eller kanske till dig
-          själv? Slå en signal så fixar vi detta med fri leveranskostnad inom
-          Lidingö.
+          sorg. Vi har ett brett utbud av växter och gör även planteringar.
         </p>
         <p className="m-4 max-w-2xl text-xl text-gray-500 lg:mx-auto font-sofiasans">
           <br />
