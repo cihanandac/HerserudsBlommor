@@ -87,12 +87,13 @@ export const eventImages = [
   { img: `${specialImagesPath}/event/event23.jpg` },
   { img: `${specialImagesPath}/event/event24.jpg` },
   { img: `${specialImagesPath}/event/event25.jpg` },
+  { img: `${specialImagesPath}/event/event26.jpg` },
+  { img: `${specialImagesPath}/event/event27.jpg` },
 ];
 
 export const birthImages = [
   { img: `${specialImagesPath}/birth/birth1.jpg` },
   { img: `${specialImagesPath}/birth/birth2.jpg` },
-  { img: `${specialImagesPath}/birth/birth3.jpg` },
 ];
 
 export const bridalImages = [
